@@ -1,0 +1,58 @@
+root:*:0:0:root:/root:/bin/bash
+daemon:*:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:*:2:2:bin:/bin:/usr/sbin/nologin
+sys:*:3:3:sys:/dev:/usr/sbin/nologin
+sync:*:4:65534:sync:/bin:/bin/sync
+games:*:5:60:games:/usr/games:/usr/sbin/nologin
+man:*:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:*:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:*:8:8:mail:/var/mail:/usr/sbin/nologin
+news:*:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:*:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:*:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:*:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:*:34:34:backup:/var/backups:/usr/sbin/nologin
+list:*:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:*:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:*:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:*:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:!*:998:998:systemd Network Management:/:/usr/sbin/nologin
+systemd-timesync:!*:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+dhcpcd:!:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+messagebus:!:101:101::/nonexistent:/usr/sbin/nologin
+syslog:!:102:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:!*:991:991:systemd Resolver:/:/usr/sbin/nologin
+uuidd:!:103:103::/run/uuidd:/usr/sbin/nologin
+usbmux:!:104:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+tss:!:105:105:TPM software stack,,,:/var/lib/tpm:/bin/false
+systemd-oom:!*:990:990:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+kernoops:!:106:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+whoopsie:!:107:109::/nonexistent:/bin/false
+dnsmasq:!:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:!:108:111:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+tcpdump:!:109:112::/nonexistent:/usr/sbin/nologin
+sssd:!:110:113:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:!:111:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+cups-pk-helper:!:112:114:user for cups-pk-helper service,,,:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:!*:989:989:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:!:113:116::/var/lib/saned:/usr/sbin/nologin
+geoclue:!:114:117::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:!:115:114::/nonexistent:/usr/sbin/nologin
+hplip:!:116:7:HPLIP system user,,,:/run/hplip:/bin/false
+gnome-remote-desktop:!*:988:988:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:!*:987:987:User for polkitd:/:/usr/sbin/nologin
+rtkit:!:117:119:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:!:118:120:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+gnome-initial-setup:!:119:65534::/run/gnome-initial-setup/:/bin/false
+gdm:!:120:121:Gnome Display Manager:/var/lib/gdm3:/bin/false
+nm-openvpn:!:121:122:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+nvidia-persistenced:!:122:124:NVIDIA Persistence Daemon,,,:/nonexistent:/usr/sbin/nologin
+hathouti:$y$j9T$l644bLkGnVU5McV9BkYbs/$d8qhmAhBe7RZaH14Pej5TlqHxw8cnhNERw6ARQojoa5:1000:1000:Hathouti Mohammed Taha:/home/hathouti:/bin/bash
+mysql:!:123:127:MySQL Server,,,:/nonexistent:/bin/false
+ftp:!:124:128:ftp daemon,,,:/srv/ftp:/usr/sbin/nologin
+sshd:!:125:65534::/run/sshd:/usr/sbin/nologin
+swtpm:!:126:130:virtual TPM software stack,,,:/var/lib/swtpm:/bin/false
+libvirt-qemu:!:64055:993:Libvirt Qemu,,,:/var/lib/libvirt:/usr/sbin/nologin
+libvirt-dnsmasq:!:127:132:Libvirt Dnsmasq,,,:/var/lib/libvirt/dnsmasq:/usr/sbin/nologin
+user2:!:1001:1001::/home/user2:/bin/sh
+user1:$y$j9T$4DEMOGIMzj4xy7miwTfJd1$14zVcjw1OB49SFZCpp2ly4ZIM7VRPYF2r6VLi4Tuo18:1002:100:User:/home//user1:/bin/bash

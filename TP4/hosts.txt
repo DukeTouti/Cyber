@@ -1,0 +1,4 @@
+192.168.100.29 google.com
+192.168.100.29 facebook.com
+192.168.100.29 example.com
+192.168.100.29 youtube.com
